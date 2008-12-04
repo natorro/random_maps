@@ -68,7 +68,7 @@ axis(BELOW<-1, at=1:length(xLabels), labels=xLabels, cex.axis=0.7)
 
 file <- /Users/natorro/Desktop/Batmaps/mexico_matrix.dat
 
-setwd("/Users/natorro/Desktop/Batmaps/")
+setwd("/Users/natorro/Desktop/Batmaps/random_maps/")
 
 # We start here the function
 random_map <- function(data_file, range_size) {
@@ -209,5 +209,5 @@ while (sum(random_matrix) < range_size){
 random_matrix	
 # This function just to check everything is working fine
 # sum(random_matrix)
- }
+}
 
